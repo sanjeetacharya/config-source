@@ -3,3 +3,12 @@ spring:
     name: foo
   profiles:
     active: dev,mysql
+---
+spring:
+  application:
+    name: bar
+  profiles:
+    active: qa
+user:
+  name: sanjeet-qa
+  
